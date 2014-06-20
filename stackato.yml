@@ -1,5 +1,5 @@
 # so that we can deploy with 'stackato push --no-prompt'
-name: dancer-hello
+name: dancer-helloworld
 
 framework:
   type: perl
