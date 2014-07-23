@@ -1,5 +1,4 @@
 # so that we can deploy with 'stackato push --no-prompt'
 name: dancer-helloworld
 
-framework:
-  type: perl
+buildpack: https://github.com/ActiveState/stackato-buildpack-perl.git
